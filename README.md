@@ -1,9 +1,9 @@
-### README: Car Number Plate Recognition System
+### README: Smart Parking System (Car Number Plate Registration/Recognition)
 
 ---
 
 #### **Project Overview**
-This project is a car number plate recognition system developed using Python, PHP, and MySQL. It leverages Haar Cascade classifiers for detecting car number plates, processes the information, and integrates with a database to manage car details. The system supports automatic retrieval of registered car information, new car registration, and a monthly pass feature.
+This project is a smart parking system developed using Python, Tkinter, PHP-MyAdmin, and MySQL database. It uses Opencv and Haar Cascade classifiers for detecting car number plates, processes the information, and integrates with a database to manage car details. The system supports automatic retrieval of registered car information, new car registration, and a monthly pass feature.
 
 ---
 
@@ -19,21 +19,20 @@ This project is a car number plate recognition system developed using Python, PH
   - Offers a feature for car owners to subscribe to a monthly pass.
 
 - **Database Integration:**
-  - Uses PHP and MySQL for seamless backend connectivity and data storage.
+  - Uses MySQL for seamless backend connectivity and data storage.
 
 ---
 
 #### **Technologies Used**
-- **Programming Languages:** Python, PHP
+- **Programming Languages:** Python, Tkinter for frontend
 - **Database:** MySQL
 - **Libraries/Frameworks:** OpenCV, Haar Cascade
-- **Other Tools:** XAMPP or any PHP server environment
+- **Other Tools:** XAMPP 
 
 ---
 
 #### **System Requirements**
 - Python 3.x
-- PHP 7.x or higher
 - MySQL 5.x or higher
 - Required Python Libraries: OpenCV, NumPy
 - A local or hosted server environment (e.g., XAMPP, WAMP)
@@ -53,7 +52,7 @@ This project is a car number plate recognition system developed using Python, PH
 
 3. **Install Python Dependencies:**
    ```bash
-   pip install opencv-python numpy
+   pip install pymysql opencv-python numpy
    ```
 
 4. **Run the Application:**
@@ -64,7 +63,7 @@ This project is a car number plate recognition system developed using Python, PH
 ---
 
 #### **Usage**
-- Run the Python script to start detecting car number plates.
+- Upload image of car front part for detecting car number plates.
 - The system will fetch the car details if the number is registered.
 - For new registrations, use the registration interface.
 - Manage monthly passes directly from the system.
@@ -72,15 +71,15 @@ This project is a car number plate recognition system developed using Python, PH
 ---
 
 #### **Future Enhancements**
+- Integration with a live camera stream.
 - Integration with cloud-based databases.
-- Support for multiple languages.
 - Enhanced detection using deep learning models like YOLO.
 
 ---
 
 #### **Contributors**
-- [Your Name]  
-- [Your Team/Organization]  
+- Manpreet Singh
+
 
 ---
 
